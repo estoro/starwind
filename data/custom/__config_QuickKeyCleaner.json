@@ -1,0 +1,10 @@
+{
+  "removeRefIds":[],
+  "restrictedCells":[],
+  "hotkeyPlaceholder":{
+    "type":"miscellaneous",
+    "name":"Empty",
+    "icon":"m\\misc_dwrv_Ark_cube00.tga",
+    "refId":"hotkey_placeholder"
+  }
+}

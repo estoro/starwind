@@ -1,0 +1,4 @@
+{
+  "mainMessage":"This is a WIP. Still need to setup a banker, starting equipment, starting spawns, quick key cleaner, player housing, and a MOTD with all available commands. For the time being your player bank can be accessed using /bank. Wilderness resting has been disabled and a bedroll has been provided to rest on. Just drop it on the ground and activate it.",
+  "title":"Welcome!"
+}

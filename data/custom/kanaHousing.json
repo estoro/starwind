@@ -1,0 +1,48 @@
+{
+  "cells":{
+    "Manaan, Eagle 5":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Manaan, Eagle 5",
+      "name":"Manaan, Eagle 5",
+      "requiresResets":false
+    }
+  },
+  "houses":{
+    "Manaan, Eagle 5":{
+      "price":5000,
+      "inside":{
+        "cell":"Manaan, Eagle 5",
+        "pos":{
+          "y":3506.2873535156,
+          "x":4126.7700195313,
+          "z":12285.341796875
+        }
+      },
+      "cells":{
+        "Manaan, Eagle 5":true
+      },
+      "doors":{
+        "Manaan, Bazaar":[{
+            "refIndex":"7591-0",
+            "refId":"sw_manadoorg"
+          }],
+        "Manaan, Eagle 5":[{
+            "refIndex":"5327-0",
+            "refId":"sw_manadoorg"
+          }]
+      },
+      "name":"Manaan, Eagle 5",
+      "outside":{
+        "cell":"Manaan, Bazaar",
+        "pos":{
+          "y":16789.95703125,
+          "x":4837.7993164063,
+          "z":80.715545654297
+        }
+      }
+    }
+  },
+  "owners":[]
+}
