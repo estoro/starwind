@@ -89,7 +89,7 @@ config.StaffRankToBypassLock = 2 	-- This is the minimum staffRank that is allow
 									-- to bypass locked mannequins.
 									-- 3 = owner; 2 = admin; 1 = mods; 0 = anyone.
 
-config.DefaultMannequinPrice = 25000	-- This is the default price of mannequinShopInventory
+config.DefaultMannequinPrice = 50	-- This is the default price of mannequinShopInventory
 										-- when purchased from the mannequin shop.
 
 --==----==----==----==----==----==----==----==--
@@ -103,6 +103,8 @@ config.mannequinDisplayEquipmentOptions = 03302030
 config.menuMannequinShop = 03302031
 
 mannequinShopInventory = {
+	{name = "Mannequin: Gungan Male", refId = "mannequin_script_item_gungan_male", price = config.DefaultMannequinPrice, qty = 1},
+	--[[
 	{name = "Mannequin: Altmer Male", refId = "mannequin_script_item_altmer_male", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Altmer Female", refId = "mannequin_script_item_altmer_female", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Bosmer Male", refId = "mannequin_script_item_bosmer_male", price = config.DefaultMannequinPrice, qty = 1},
@@ -119,9 +121,12 @@ mannequinShopInventory = {
 	{name = "Mannequin: Orsimer Female", refId = "mannequin_script_item_orc_female", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Redguard Male", refId = "mannequin_script_item_redguard_male", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Redguard Female", refId = "mannequin_script_item_redguard_female", price = config.DefaultMannequinPrice, qty = 1}
+	]]--
 }
 
 config.mannequinRefIDs = {
+	"mannequin_script_gungan_male"
+	--[[
 	"mannequin_script_dunmer_male",
 	"mannequin_script_dunmer_female",
 	"mannequin_script_breton_male",
@@ -138,9 +143,12 @@ config.mannequinRefIDs = {
 	"mannequin_script_redguard_female",
 	"mannequin_script_bosmer_male",
 	"mannequin_script_bosmer_female"
+	]]--
 }
 
 config.droppableItemsInHome = {
+	"mannequin_script_item_gungan_male"
+	--[[
 	"mannequin_script_item_dunmer_male",
 	"mannequin_script_item_dunmer_female",
 	"mannequin_script_item_breton_male",
@@ -157,9 +165,12 @@ config.droppableItemsInHome = {
 	"mannequin_script_item_redguard_female",
 	"mannequin_script_item_bosmer_male",
 	"mannequin_script_item_bosmer_female"
+	]]--
 }
 
 config.mannequinItemToNPC = {
+	["mannequin_script_item_gungan_male"] = "mannequin_script_gungan_male"
+	--[[
 	["mannequin_script_item_dunmer_male"] = "mannequin_script_dunmer_male", 
 	["mannequin_script_item_dunmer_female"] = "mannequin_script_dunmer_female",
 	["mannequin_script_item_breton_male"] = "mannequin_script_breton_male",
@@ -176,6 +187,7 @@ config.mannequinItemToNPC = {
 	["mannequin_script_item_redguard_female"] = "mannequin_script_redguard_female",
 	["mannequin_script_item_bosmer_male"] = "mannequin_script_bosmer_male",
 	["mannequin_script_item_bosmer_female"] = "mannequin_script_bosmer_female"
+	]]--
 }
 
 
@@ -352,6 +364,22 @@ local function createRecord()
 	
 	recordStore = RecordStores["npc"]
 	
+	recordStore.data.permanentRecords["mannequin_script_gungan_male"] = {
+		name = "Mannequin: Gungan Male",
+		--gender = 1,
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "argonian",
+		head = "sw_gungan1",
+		hair = "sw_nohairarg",
+		script = ""
+	}
+	recordStore:Save()
+	
+	--[[
 	recordStore.data.permanentRecords["mannequin_script_dunmer_male"] = {
 		name = "Mannequin: Dunmer Male",
 		--gender = 1,
@@ -584,11 +612,24 @@ local function createRecord()
 		script = ""
 	}
 	recordStore:Save()
+	]]--
 	
 	
 --==----==----==----==----==----==----==----==----==----==----==----==----==--
 	
 	recordStore = RecordStores["miscellaneous"]
+	
+	recordStore.data.permanentRecords["mannequin_script_item_gungan_male"] = {
+		name = "Mannequin: Gungan Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	--[[
 	recordStore.data.permanentRecords["mannequin_script_item_dunmer_male"] = {
 		name = "Mannequin: Dunmer Male",
 		icon = "m\\Tx_vivec_ashmask_01.tga",
@@ -748,6 +789,7 @@ local function createRecord()
 		script = ""
 	}
 	recordStore:Save()
+	]]--
 	
 end
 

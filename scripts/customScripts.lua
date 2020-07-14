@@ -16,6 +16,7 @@ kanaFurniture = require("custom.atkana.kanaFurniture")
 kanaHousing = require("custom.atkana.kanaHousing")
 CellReset = require("custom.atkana.CellReset")
 kanaBank = require("custom.atkana.kanaBank")
+kanaStartingItems = require("custom.atkana.kanaStartingItems")
 
 -- https://github.com/Learwolf/tes3mp-Scripts
 require("custom.lear.objectSpawnSystem")
@@ -25,10 +26,8 @@ require("custom.lear.mannequinNPC")
 -- https://gitlab.com/rendeko/tes3mp-scripts/
 require("custom.rendeko.jrpStatus")
 require("custom.rendeko.lastLogin")
+require("custom.rendeko.deleteCharacter")
 require("custom.rendeko.portableBedroll")
-
--- https://github.com/Boyos999/Boyos-Tes3mp-Scripts/
-require("custom.boyos999.starterEquipment")
 
 -- https://steamcommunity.com/groups/mwmulti/discussions/1/1640926712945926690/
 require("custom.adul.time")

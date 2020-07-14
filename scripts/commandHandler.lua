@@ -1200,11 +1200,17 @@ function commandHandler.ProcessCommand(pid, cmd)
             cmd[1] == "mm" or
             cmd[1] == "modmenu" or
 
+            -- custom.lear.mannequinNPC
+            cmd[1] == "mannequins" or
+
             -- custom.rendeko.jrpStatus
             cmd[1] == "status" or
 
             -- custom.rendeko.lastLogin
             cmd[1] == "lastlogin" or
+
+            -- custom.rendeko.deleteCharacter
+            cmd[1] == "deletecharacter" or
 
             -- custom.adul.time
             cmd[1] == "at"
