@@ -103,7 +103,18 @@ config.mannequinDisplayEquipmentOptions = 03302030
 config.menuMannequinShop = 03302031
 
 mannequinShopInventory = {
+	{name = "Mannequin: Coruscanti Male", refId = "mannequin_script_item_coruscanti_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Duros Male", refId = "mannequin_script_item_duros_male", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Gungan Male", refId = "mannequin_script_item_gungan_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Ithorian Male", refId = "mannequin_script_item_ithorian_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Lothalite Male", refId = "mannequin_script_item_lothalite_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Mandalorian Male", refId = "mannequin_script_item_mandalorian_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Rodian Male", refId = "mannequin_script_item_rodian_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Selkath Male", refId = "mannequin_script_item_selkath_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Tarisian Male", refId = "mannequin_script_item_tarisian_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Twilek Male", refId = "mannequin_script_item_twilek_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Wookie Male", refId = "mannequin_script_item_wookie_male", price = config.DefaultMannequinPrice, qty = 1},
+	{name = "Mannequin: Zabrak Male", refId = "mannequin_script_item_zabrak_male", price = config.DefaultMannequinPrice, qty = 1},
 	--[[
 	{name = "Mannequin: Altmer Male", refId = "mannequin_script_item_altmer_male", price = config.DefaultMannequinPrice, qty = 1},
 	{name = "Mannequin: Altmer Female", refId = "mannequin_script_item_altmer_female", price = config.DefaultMannequinPrice, qty = 1},
@@ -125,7 +136,18 @@ mannequinShopInventory = {
 }
 
 config.mannequinRefIDs = {
-	"mannequin_script_gungan_male"
+	"mannequin_script_coruscanti_male",
+	"mannequin_script_duros_male",
+	"mannequin_script_gungan_male",
+	"mannequin_script_ithorian_male",
+	"mannequin_script_lothalite_male",
+	"mannequin_script_mandalorian_male",
+	"mannequin_script_rodian_male",
+	"mannequin_script_selkath_male",
+	"mannequin_script_tarisian_male",
+	"mannequin_script_twilek_male",
+	"mannequin_script_wookie_male",
+	"mannequin_script_zabrak_male",
 	--[[
 	"mannequin_script_dunmer_male",
 	"mannequin_script_dunmer_female",
@@ -147,7 +169,18 @@ config.mannequinRefIDs = {
 }
 
 config.droppableItemsInHome = {
-	"mannequin_script_item_gungan_male"
+	"mannequin_script_item_coruscanti_male",
+	"mannequin_script_item_duros_male",
+	"mannequin_script_item_gungan_male",
+	"mannequin_script_item_ithorian_male",
+	"mannequin_script_item_lothalite_male",
+	"mannequin_script_item_mandalorian_male",
+	"mannequin_script_item_rodian_male",
+	"mannequin_script_item_selkath_male",
+	"mannequin_script_item_tarisian_male",
+	"mannequin_script_item_twilek_male",
+	"mannequin_script_item_wookie_male",
+	"mannequin_script_item_zabrak_male",
 	--[[
 	"mannequin_script_item_dunmer_male",
 	"mannequin_script_item_dunmer_female",
@@ -169,7 +202,18 @@ config.droppableItemsInHome = {
 }
 
 config.mannequinItemToNPC = {
-	["mannequin_script_item_gungan_male"] = "mannequin_script_gungan_male"
+	["mannequin_script_item_coruscanti_male"] = "mannequin_script_coruscanti_male",
+	["mannequin_script_item_duros_male"] = "mannequin_script_duros_male",
+	["mannequin_script_item_gungan_male"] = "mannequin_script_gungan_male",
+	["mannequin_script_item_ithorian_male"] = "mannequin_script_ithorian_male",
+	["mannequin_script_item_lothalite_male"] = "mannequin_script_lothalite_male",
+	["mannequin_script_item_mandalorian_male"] = "mannequin_script_mandalorian_male",
+	["mannequin_script_item_rodian_male"] = "mannequin_script_rodian_male",
+	["mannequin_script_item_selkath_male"] = "mannequin_script_selkath_male",
+	["mannequin_script_item_tarisian_male"] = "mannequin_script_tarisian_male",
+	["mannequin_script_item_twilek_male"] = "mannequin_script_twilek_male",
+	["mannequin_script_item_wookie_male"] = "mannequin_script_wookie_male",
+	["mannequin_script_item_zabrak_male"] = "mannequin_script_zabrak_male",
 	--[[
 	["mannequin_script_item_dunmer_male"] = "mannequin_script_dunmer_male", 
 	["mannequin_script_item_dunmer_female"] = "mannequin_script_dunmer_female",
@@ -364,9 +408,36 @@ local function createRecord()
 	
 	recordStore = RecordStores["npc"]
 	
+	recordStore.data.permanentRecords["mannequin_script_coruscanti_male"] = {
+		name = "Mannequin: Coruscanti Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "imperial",
+		head = "b_n_imperial_m_head_01",
+		hair = "b_n_imperial_m_hair_00",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_duros_male"] = {
+		name = "Mannequin: Duros Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "dark elf",
+		head = "sw_duroshead1",
+		hair = "sw_nohairdarkelf",
+		script = ""
+	}
+	recordStore:Save()
+	
 	recordStore.data.permanentRecords["mannequin_script_gungan_male"] = {
 		name = "Mannequin: Gungan Male",
-		--gender = 1,
 		baseId = "belvis sedri",
 		health = 999999999,
 		fatigue = 999999999,
@@ -375,6 +446,132 @@ local function createRecord()
 		race = "argonian",
 		head = "sw_gungan1",
 		hair = "sw_nohairarg",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_ithorian_male"] = {
+		name = "Mannequin: Ithorian Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "ithorian",
+		head = "sw_ith1",
+		hair = "sw_nohairithorian",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_lothalite_male"] = {
+		name = "Mannequin: Lothalite Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "redguard",
+		head = "b_n_redguard_m_head_04",
+		hair = "b_n_redguard_m_hair_00",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_mandalorian_male"] = {
+		name = "Mannequin: Mandalorian Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "nord",
+		head = "b_n_nord_m_head_13",
+		hair = "b_n_nord_m_hair00",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_rodian_male"] = {
+		name = "Mannequin: Rodian Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "orc",
+		head = "sw_rodianhead1",
+		hair = "sw_nohairorc",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_selkath_male"] = {
+		name = "Mannequin: Selkath Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "selkath",
+		head = "sw_selkath1",
+		hair = "sw_nohairselkath",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_tarisian_male"] = {
+		name = "Mannequin: Tarisian Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "breton",
+		head = "b_n_breton_m_head_07",
+		hair = "b_n_breton_m_hair_00",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_twilek_male"] = {
+		name = "Mannequin: Twilek Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "high elf",
+		head = "sw_twilekhead1",
+		hair = "sw_nohairhighelf",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_wookie_male"] = {
+		name = "Mannequin: Wookie Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "wookie",
+		head = "sw_wookie_head2",
+		hair = "sw_nohairwookie",
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_zabrak_male"] = {
+		name = "Mannequin: Zabrak Male",
+		baseId = "belvis sedri",
+		health = 999999999,
+		fatigue = 999999999,
+		level = 9999,
+		items = {},
+		race = "zabrak",
+		head = "zab_m_headred",
+		hair = "sw_nohairzab",
 		script = ""
 	}
 	recordStore:Save()
@@ -619,8 +816,118 @@ local function createRecord()
 	
 	recordStore = RecordStores["miscellaneous"]
 	
+	recordStore.data.permanentRecords["mannequin_script_item_coruscanti_male"] = {
+		name = "Mannequin: Coruscanti Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_duros_male"] = {
+		name = "Mannequin: Duros Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
 	recordStore.data.permanentRecords["mannequin_script_item_gungan_male"] = {
 		name = "Mannequin: Gungan Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_ithorian_male"] = {
+		name = "Mannequin: Ithorian Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_lothalite_male"] = {
+		name = "Mannequin: Lothalite Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_mandalorian_male"] = {
+		name = "Mannequin: Mandalorian Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_rodian_male"] = {
+		name = "Mannequin: Rodian Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_selkath_male"] = {
+		name = "Mannequin: Selkath Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_tarisian_male"] = {
+		name = "Mannequin: Tarisian Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_twilek_male"] = {
+		name = "Mannequin: Twilek Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_wookie_male"] = {
+		name = "Mannequin: Wookie Male",
+		icon = "m\\Tx_vivec_ashmask_01.tga",
+		model = "m\\Misc_vivec_ashmask_01.NIF",
+		weight = 0.5,
+		value = 0,
+		script = ""
+	}
+	recordStore:Save()
+	
+	recordStore.data.permanentRecords["mannequin_script_item_zabrak_male"] = {
+		name = "Mannequin: Zabrak Male",
 		icon = "m\\Tx_vivec_ashmask_01.tga",
 		model = "m\\Misc_vivec_ashmask_01.NIF",
 		weight = 0.5,
