@@ -2,8 +2,8 @@ local Methods = {}
 
 Methods.OnCharacterCreated = function(eventStatus, pid)
     logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_CharGen 1")
-	logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_CharGen 2")
-	logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_CharGen 3")
+    logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_CharGen 2")
+    logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_CharGen 3")
 end
 
 Methods.OnLogin = function(pid)
