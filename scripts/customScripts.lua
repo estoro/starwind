@@ -34,4 +34,4 @@ require("custom.adul.time")
 
 -- https://github.com/estoro/starwind
 require("custom.estoro.starwind_doors")
-require("custom.estoro.starwind_vehicleCombat")
+require("custom.estoro.starwind_questFixes")
