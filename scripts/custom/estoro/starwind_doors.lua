@@ -88,6 +88,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 if nil ~= Players[pid].data.factionRanks["the republic"] then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_repentr2->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_repentr2->lock 100")
                     isValid = false
                 end
@@ -99,6 +100,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 if nil ~= Players[pid].data.factionRanks["the sith"] then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sithentr->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sithentr->lock 100")
                     isValid = false
                 end
@@ -107,22 +109,13 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
         if objectRefId == "sw_manadoorframe" then
             if objectUniqueIndex == nil then isValid = false return end
             if objectUniqueIndex == "3424-0" then
-                -- unlocks after certain quest ???
-                --[[
-                local journal = Players[pid].data.journal
-                local hasEntry = false
-                for index, entry in pairs(journal) do
-                    if entry["quest"] == "" and entry["index"] ==  then
-                        hasEntry = true
-                    end
-                end
-                if hasEntry then
+                if Players[pid].data.fame["reputation"] >= 20 then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_manadoorframe->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_manadoorframe->lock 100")
                     isValid = false
                 end
-                ]]--
             end
         end
         if objectRefId == "sw_sandrivergate2" then
@@ -138,6 +131,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 if hasEntry then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sandrivergate2->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sandrivergate2->lock 100")
                     isValid = false
                 end
@@ -156,6 +150,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 if hasEntry then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_czerkadoor->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_czerkadoor->lock 100")
                     isValid = false
                 end
@@ -167,6 +162,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 if nil ~= Players[pid].data.factionRanks["sw_genoharadan"] then
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_geno->unlock")
                 else
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_geno->lock 100")
                     isValid = false
                 end
@@ -177,6 +173,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
             if objectUniqueIndex == "7582-0" then
                 local inventory = Players[pid].data.inventory
                 if not inventoryHelper.containsItem(inventory, "sw_narkey", -1, -1, "") then
+				    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
                     logicHandler.RunConsoleCommandOnPlayer(pid, "sw_narelevator->lock 100")
                     isValid = false
                 end
