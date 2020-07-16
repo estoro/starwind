@@ -13,5 +13,4 @@
 - https://github.com/Atkana/tes3mp-scripts
 - https://github.com/Learwolf/tes3mp-Scripts
 - https://gitlab.com/rendeko/tes3mp-scripts/
-- https://github.com/Boyos999/Boyos-Tes3mp-Scripts/
 - https://steamcommunity.com/groups/mwmulti/discussions/1/1640926712945926690/
