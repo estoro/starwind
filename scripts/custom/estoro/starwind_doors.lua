@@ -118,6 +118,25 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 end
             end
         end
+        if objectRefId == "sw_sandrivergate" then
+            if objectUniqueIndex == nil then isValid = false return end
+            if objectUniqueIndex == "3846-0" then
+                local journal = Players[pid].data.journal
+                local hasEntry = false
+                for index, entry in pairs(journal) do
+                    if entry["quest"] == "sw_work" and entry["index"] == 31 then
+                        hasEntry = true
+                    end
+                end
+                if hasEntry then
+                    logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sandrivergate->unlock")
+                else
+                    tes3mp.CustomMessageBox(pid, -1, "You do not have access to this area.", "Ok")
+                    logicHandler.RunConsoleCommandOnPlayer(pid, "sw_sandrivergate->lock 100")
+                    isValid = false
+                end
+            end
+        end
         if objectRefId == "sw_sandrivergate2" then
             if objectUniqueIndex == nil then isValid = false return end
             if objectUniqueIndex == "3849-0" then

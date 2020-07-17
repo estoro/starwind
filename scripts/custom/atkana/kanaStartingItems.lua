@@ -92,11 +92,16 @@ scriptConfig.birthsignItems = {
 
 -- General items are given to every player
 scriptConfig.generalItems = {
-	{refId = "gold_001", count = 20},
+	{refId = "gold_001", count = 1},
 	{refId = "portable_bedroll", count = 1},
-	{refId = "sw_medkit", count = 2},
+	{refId = "sw_playergenkey", count = 1},
+	{refId = "sw_playergen", count = 1},
+	{refId = "sw_playergen2", count = 1},
+	{refId = "sw_playergen03", count = 1},
+	{refId = "sw_gizkaitem5", count = 1},
+	{refId = "sw_medkit", count = 3},
 	{refId = "sw_vibrobladeimbold", count = 1},
-	{refId = "sw_securityspike", count = 2},
+	{refId = "sw_securityspike", count = 3},
 	{refId = "sw_blasterrifleworn", count = 1},
 	{refId = "sw_rephelm", count = 1},
 	{refId = "common_shirt_04_a", count = 1},

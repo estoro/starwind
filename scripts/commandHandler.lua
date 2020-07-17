@@ -1210,10 +1210,7 @@ function commandHandler.ProcessCommand(pid, cmd)
             cmd[1] == "lastlogin" or
 
             -- custom.rendeko.deleteCharacter
-            cmd[1] == "deletecharacter" or
-
-            -- custom.adul.time
-            cmd[1] == "at"
+            cmd[1] == "deletecharacter"
             
             ) then
 

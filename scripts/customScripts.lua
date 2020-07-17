@@ -29,9 +29,6 @@ require("custom.rendeko.lastLogin")
 require("custom.rendeko.deleteCharacter")
 require("custom.rendeko.portableBedroll")
 
--- https://steamcommunity.com/groups/mwmulti/discussions/1/1640926712945926690/
-require("custom.adul.time")
-
 -- https://github.com/estoro/starwind
 require("custom.estoro.starwind_doors")
 require("custom.estoro.starwind_questFixes")

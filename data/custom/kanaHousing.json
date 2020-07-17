@@ -1,24 +1,65 @@
 {
   "cells":{
+    "Tatooine, Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Hut",
+      "requiresResets":false
+    },
     "Manaan, Eagle 5":{
       "ownedContainers":false,
       "requiredAccess":false,
-      "resetInfo":[],
       "house":"Manaan, Eagle 5",
+      "resetInfo":[],
       "name":"Manaan, Eagle 5",
       "requiresResets":false
     }
   },
   "houses":{
+    "Tatooine, Hut":{
+      "price":1000,
+      "inside":{
+        "cell":"Tatooine, Hut",
+        "pos":{
+          "y":3868.7260742188,
+          "x":4152.25,
+          "z":12270.216796875
+        }
+      },
+      "cells":{
+        "Tatooine, Hut":true
+      },
+      "doors":{
+        "Tatooine, Hut":[{
+            "refIndex":"5288-0",
+            "refId":"sw_door1"
+          }],
+        "Tattoine, Sandriver":[{
+            "refIndex":"3847-0",
+            "refId":"sw_doortatbuyhouse"
+          }]
+      },
+      "name":"Tatooine, Hut",
+      "outside":{
+        "cell":"Tatooine, Sandriver",
+        "pos":{
+          "y":5797.2729492188,
+          "x":6661.890625,
+          "z":12273.217773438
+        }
+      }
+    },
     "Manaan, Eagle 5":{
       "price":5000,
       "inside":{
-        "cell":"Manaan, Eagle 5",
         "pos":{
           "y":3506.2873535156,
           "x":4126.7700195313,
           "z":12285.341796875
-        }
+        },
+        "cell":"Manaan, Eagle 5"
       },
       "cells":{
         "Manaan, Eagle 5":true
@@ -35,12 +76,12 @@
       },
       "name":"Manaan, Eagle 5",
       "outside":{
-        "cell":"Manaan, Bazaar",
         "pos":{
           "y":16789.95703125,
           "x":4837.7993164063,
           "z":80.715545654297
-        }
+        },
+        "cell":"Manaan, Bazaar"
       }
     }
   },
