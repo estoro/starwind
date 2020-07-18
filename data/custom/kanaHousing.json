@@ -3,17 +3,33 @@
     "Tatooine, Hut":{
       "ownedContainers":false,
       "requiredAccess":false,
-      "house":"Tatooine, Hut",
       "resetInfo":[],
+      "house":"Tatooine, Hut",
       "name":"Tatooine, Hut",
       "requiresResets":false
     },
     "Manaan, Eagle 5":{
       "ownedContainers":false,
       "requiredAccess":false,
-      "house":"Manaan, Eagle 5",
       "resetInfo":[],
+      "house":"Manaan, Eagle 5",
       "name":"Manaan, Eagle 5",
+      "requiresResets":false
+    },
+    "Tatooine, Empty Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Tatooine, Empty Hut",
+      "name":"Tatooine, Empty Hut",
+      "requiresResets":false
+    },
+    "Tatooine, Empty Manor":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Tatooine, Empty Manor",
+      "name":"Tatooine, Empty Manor",
       "requiresResets":false
     }
   },
@@ -21,12 +37,12 @@
     "Tatooine, Hut":{
       "price":1000,
       "inside":{
-        "cell":"Tatooine, Hut",
         "pos":{
           "y":3868.7260742188,
           "x":4152.25,
           "z":12270.216796875
-        }
+        },
+        "cell":"Tatooine, Hut"
       },
       "cells":{
         "Tatooine, Hut":true
@@ -43,23 +59,23 @@
       },
       "name":"Tatooine, Hut",
       "outside":{
-        "cell":"Tatooine, Sandriver",
         "pos":{
           "y":5797.2729492188,
           "x":6661.890625,
           "z":12273.217773438
-        }
+        },
+        "cell":"Tatooine, Sandriver"
       }
     },
     "Manaan, Eagle 5":{
       "price":5000,
       "inside":{
+        "cell":"Manaan, Eagle 5",
         "pos":{
           "y":3506.2873535156,
           "x":4126.7700195313,
           "z":12285.341796875
-        },
-        "cell":"Manaan, Eagle 5"
+        }
       },
       "cells":{
         "Manaan, Eagle 5":true
@@ -76,14 +92,82 @@
       },
       "name":"Manaan, Eagle 5",
       "outside":{
+        "cell":"Manaan, Bazaar",
         "pos":{
           "y":16789.95703125,
           "x":4837.7993164063,
           "z":80.715545654297
+        }
+      }
+    },
+    "Tatooine, Empty Manor":{
+      "price":2000,
+      "inside":{
+        "pos":{
+          "y":4210.6982421875,
+          "x":3936.3393554688,
+          "z":15239.791015625
         },
-        "cell":"Manaan, Bazaar"
+        "cell":"Tatooine, Empty Manor"
+      },
+      "cells":{
+        "Tatooine, Empty Manor":true
+      },
+      "doors":[],
+      "name":"Tatooine, Empty Manor",
+      "outside":{
+        "pos":{
+          "y":2349.2409667969,
+          "x":5409.6352539063,
+          "z":12273.217773438
+        },
+        "cell":"Tatooine, Sandriver"
+      }
+    },
+    "Tatooine, Empty Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3956.9455566406,
+          "x":3978.6735839844,
+          "z":12244.357421875
+        },
+        "cell":"Tatooine, Empty Hut"
+      },
+      "cells":{
+        "Tatooine, Empty Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Empty Hut",
+      "outside":{
+        "pos":{
+          "y":3537.2902832031,
+          "x":4692.529296875,
+          "z":12273.217773438
+        },
+        "cell":"Tatooine, Sandriver"
       }
     }
   },
-  "owners":[]
+  "owners":{
+    "sith":{
+      "houses":[]
+    },
+    "raj raj blinks":{
+      "houses":{
+        "Manaan, Eagle 5":{
+          "coowners":[],
+          "isLocked":false
+        }
+      }
+    },
+    "ignatious":{
+      "houses":{
+        "Tatooine, Hut":{
+          "coowners":[],
+          "isLocked":false
+        }
+      }
+    }
+  }
 }

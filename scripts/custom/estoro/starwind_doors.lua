@@ -7,6 +7,30 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
         local objectUniqueIndex = object.uniqueIndex
         local objectRefId = object.refId
         
+        if objectRefId == "sw_czerkaofficeguy" then
+            if objectUniqueIndex == nil then isValid = false return end
+            if objectUniqueIndex == "2778-0" then
+                local journal = Players[pid].data.journal
+                local hasEntry20 = false
+                local hasEntry30 = false
+                for index, entry in pairs(journal) do
+                    if entry["quest"] == "sw_work" then
+                        if entry["index"] == 20 then
+                            hasEntry20 = true
+                        end
+                        if entry["index"] == 30 then
+                            hasEntry30 = true
+                        end
+                    end
+                end
+                if hasEntry20 and not hasEntry30 then
+                    local inventory = Players[pid].data.inventory
+                    if inventoryHelper.containsItem(inventory, "sw_zillowssymbol", -1, -1, "") then
+                        logicHandler.RunConsoleCommandOnPlayer(pid, "Journal SW_Work 30")
+                    end
+                end
+            end
+        end
         if objectRefId == "sw_lafeauxkash" then
             if objectUniqueIndex == nil then isValid = false return end
             if objectUniqueIndex == "194-0" then
@@ -45,6 +69,24 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                     tes3mp.CustomMessageBox(pid, -1, "Nothing happens.", "Ok")
                     isValid = false
                 end
+            end
+        end
+        if objectRefId == "sw_doortatbuyhouse" then
+            if objectUniqueIndex == nil then isValid = false return end
+            if objectUniqueIndex == "3847-0" then
+                logicHandler.RunConsoleCommandOnPlayer(pid, "sw_doortatbuyhouse->unlock")
+            end
+        end
+        if objectRefId == "sw_door1" then
+            if objectUniqueIndex == nil then isValid = false return end
+            if objectUniqueIndex == "3848-0" then
+                logicHandler.RunConsoleCommandOnPlayer(pid, "sw_door1->unlock")
+            end
+        end
+        if objectRefId == "sw_manordoor" then
+            if objectUniqueIndex == nil then isValid = false return end
+            if objectUniqueIndex == "3850-0" then
+                logicHandler.RunConsoleCommandOnPlayer(pid, "sw_manordoor->unlock")
             end
         end
         if objectRefId == "ex_s_door" then
@@ -124,7 +166,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 local journal = Players[pid].data.journal
                 local hasEntry = false
                 for index, entry in pairs(journal) do
-                    if entry["quest"] == "sw_work" and entry["index"] == 31 then
+                    if entry["quest"] == "sw_work" and entry["index"] >= 30 then
                         hasEntry = true
                     end
                 end
@@ -143,7 +185,7 @@ customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid
                 local journal = Players[pid].data.journal
                 local hasEntry = false
                 for index, entry in pairs(journal) do
-                    if entry["quest"] == "sw_work" and entry["index"] == 31 then
+                    if entry["quest"] == "sw_work" and entry["index"] >= 30 then
                         hasEntry = true
                     end
                 end
