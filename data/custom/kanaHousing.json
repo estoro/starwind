@@ -149,25 +149,5 @@
       }
     }
   },
-  "owners":{
-    "sith":{
-      "houses":[]
-    },
-    "raj raj blinks":{
-      "houses":{
-        "Manaan, Eagle 5":{
-          "coowners":[],
-          "isLocked":false
-        }
-      }
-    },
-    "ignatious":{
-      "houses":{
-        "Tatooine, Hut":{
-          "coowners":[],
-          "isLocked":false
-        }
-      }
-    }
-  }
+  "owners":[]
 }
