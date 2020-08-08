@@ -1,19 +1,90 @@
 {
   "cells":{
-    "Tatooine, Hut":{
+    "Tatooine, Manor":{
       "ownedContainers":false,
       "requiredAccess":false,
+      "house":"Tatooine, Manor",
       "resetInfo":[],
-      "house":"Tatooine, Hut",
-      "name":"Tatooine, Hut",
+      "name":"Tatooine, Manor",
       "requiresResets":false
     },
-    "Manaan, Eagle 5":{
+    "Tatooine, Jaysun's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Jaysun's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Jaysun's Hut",
+      "requiresResets":false
+    },
+    "Kashyyk":{
       "ownedContainers":false,
       "requiredAccess":false,
       "resetInfo":[],
-      "house":"Manaan, Eagle 5",
-      "name":"Manaan, Eagle 5",
+      "name":"Kashyyk",
+      "requiresResets":false
+    },
+    "Tatooine, Abandoned Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Abandoned Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Abandoned Hut",
+      "requiresResets":false
+    },
+    "Tatooine, Haydun's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Haydun's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Haydun's Hut",
+      "requiresResets":false
+    },
+    "Kashyyk, Wookie Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Wookie Hut",
+      "resetInfo":[],
+      "name":"Kashyyk, Wookie Hut",
+      "requiresResets":false
+    },
+    "Kashyyk, Odd Tent":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Odd Tent",
+      "resetInfo":[],
+      "name":"Kashyyk, Odd Tent",
+      "requiresResets":false
+    },
+    "Kashyyk, Orange Manor":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Orange Manor",
+      "resetInfo":[],
+      "name":"Kashyyk, Orange Manor",
+      "requiresResets":false
+    },
+    "Kashyyk, Mar Vim's Tent":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Mar Vim's Tent",
+      "resetInfo":[],
+      "name":"Kashyyk, Mar Vim's Tent",
+      "requiresResets":false
+    },
+    "Kashyyk, Gray's Tent":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Gray's Tent",
+      "resetInfo":[],
+      "name":"Kashyyk, Gray's Tent",
+      "requiresResets":false
+    },
+    "Tatooine, Gudda's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Gudda's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Gudda's Hut",
       "requiresResets":false
     },
     "Tatooine, Empty Hut":{
@@ -24,6 +95,118 @@
       "name":"Tatooine, Empty Hut",
       "requiresResets":false
     },
+    "Kashyyk, Geerah's Tent":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Geerah's Tent",
+      "resetInfo":[],
+      "name":"Kashyyk, Geerah's Tent",
+      "requiresResets":false
+    },
+    "Tatooine, Zoboo's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Zoboo's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Zoboo's Hut",
+      "requiresResets":false
+    },
+    "Kashyyk, Azoozoo's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Azoozoo's Hut",
+      "resetInfo":[],
+      "name":"Kashyyk, Azoozoo's Hut",
+      "requiresResets":false
+    },
+    "Kashyyk, Blue Manor":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Blue Manor",
+      "resetInfo":[],
+      "name":"Kashyyk, Blue Manor",
+      "requiresResets":false
+    },
+    "Nar Shaddaa, Wampa Suite":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Nar Shaddaa, Wampa Suite",
+      "resetInfo":[],
+      "name":"Nar Shaddaa, Wampa Suite",
+      "requiresResets":false
+    },
+    "Nar Shaddaa, Ginx Suite":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Nar Shaddaa, Ginx Suite",
+      "resetInfo":[],
+      "name":"Nar Shaddaa, Ginx Suite",
+      "requiresResets":false
+    },
+    "Manaan, Apartment B4":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Manaan, Apartment B4",
+      "resetInfo":[],
+      "name":"Manaan, Apartment B4",
+      "requiresResets":false
+    },
+    "Manaan, Eagle 5":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Manaan, Eagle 5",
+      "name":"Manaan, Eagle 5",
+      "requiresResets":false
+    },
+    "Tatooine, Dex's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Dex's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Dex's Hut",
+      "requiresResets":false
+    },
+    "Nar Shaddaa, Nexu Suite":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Nar Shaddaa, Nexu Suite",
+      "resetInfo":[],
+      "name":"Nar Shaddaa, Nexu Suite",
+      "requiresResets":false
+    },
+    "Tatooine, Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "resetInfo":[],
+      "house":"Tatooine, Hut",
+      "name":"Tatooine, Hut",
+      "requiresResets":false
+    },
+    "Nar Shaddaa, Kinrath Suite":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Nar Shaddaa, Kinrath Suite",
+      "resetInfo":[],
+      "name":"Nar Shaddaa, Kinrath Suite",
+      "requiresResets":false
+    },
+    "Kashyyk, Creaky Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Kashyyk, Creaky Hut",
+      "resetInfo":[],
+      "name":"Kashyyk, Creaky Hut",
+      "requiresResets":false
+    },
+    "Manaan, Delivery Ship":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Manaan, Delivery Ship",
+      "resetInfo":[],
+      "name":"Manaan, Delivery Ship",
+      "requiresResets":false
+    },
     "Tatooine, Empty Manor":{
       "ownedContainers":false,
       "requiredAccess":false,
@@ -31,40 +214,449 @@
       "house":"Tatooine, Empty Manor",
       "name":"Tatooine, Empty Manor",
       "requiresResets":false
+    },
+    "Tatooine, Farm House":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Farm House",
+      "resetInfo":[],
+      "name":"Tatooine, Farm House",
+      "requiresResets":false
+    },
+    "Tatooine, Roomo's Hut":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Tatooine, Roomo's Hut",
+      "resetInfo":[],
+      "name":"Tatooine, Roomo's Hut",
+      "requiresResets":false
+    },
+    "Manaan, Apartment B1":{
+      "ownedContainers":false,
+      "requiredAccess":false,
+      "house":"Manaan, Apartment B1",
+      "resetInfo":[],
+      "name":"Manaan, Apartment B1",
+      "requiresResets":false
     }
   },
   "houses":{
-    "Tatooine, Hut":{
-      "price":1000,
+    "Tatooine, Manor":{
+      "price":2000,
       "inside":{
         "pos":{
-          "y":3868.7260742188,
-          "x":4152.25,
-          "z":12270.216796875
+          "y":4196.6831054688,
+          "x":3961.5236816406,
+          "z":15239.791015625
         },
-        "cell":"Tatooine, Hut"
+        "cell":"Tatooine, Manor"
       },
       "cells":{
-        "Tatooine, Hut":true
+        "Tatooine, Manor":true
       },
-      "doors":{
-        "Tatooine, Hut":[{
-            "refIndex":"5288-0",
-            "refId":"sw_door1"
-          }],
-        "Tattoine, Sandriver":[{
-            "refIndex":"3847-0",
-            "refId":"sw_doortatbuyhouse"
-          }]
-      },
-      "name":"Tatooine, Hut",
+      "doors":[],
+      "name":"Tatooine, Manor",
       "outside":{
         "pos":{
-          "y":5797.2729492188,
-          "x":6661.890625,
+          "y":4033.6538085938,
+          "x":8331.126953125,
           "z":12273.217773438
         },
         "cell":"Tatooine, Sandriver"
+      }
+    },
+    "Tatooine, Jaysun's Hut":{
+      "price":1000,
+      "inside":[],
+      "cells":{
+        "Tatooine, Jaysun's Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Jaysun's Hut",
+      "outside":[]
+    },
+    "Tatooine, Abandoned Hut":{
+      "price":500,
+      "inside":{
+        "pos":{
+          "y":-45,
+          "x":-155,
+          "z":-89.623397827148
+        },
+        "cell":"Tatooine, Abandoned Hut"
+      },
+      "cells":{
+        "Tatooine, Abandoned Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Abandoned Hut",
+      "outside":{
+        "pos":{
+          "y":9235,
+          "x":10860,
+          "z":8202.7060546875
+        },
+        "cell":"Tatooine"
+      }
+    },
+    "Tatooine, Haydun's Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3889.1865234375,
+          "x":4045.8334960938,
+          "z":12257.1328125
+        },
+        "cell":"Tatooine, Haydun's Hut"
+      },
+      "cells":{
+        "Tatooine, Haydun's Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Haydun's Hut",
+      "outside":{
+        "pos":{
+          "y":5706.0053710938,
+          "x":6831.1298828125,
+          "z":9843.5224609375
+        },
+        "cell":"Tatooine, Rodian District"
+      }
+    },
+    "Kashyyk, Wookie Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4060.8439941406,
+          "x":4103.4375,
+          "z":15648.208984375
+        },
+        "cell":"Kashyyk, Wookie Hut"
+      },
+      "cells":{
+        "Kashyyk, Wookie Hut":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Wookie Hut",
+      "outside":{
+        "pos":{
+          "y":12858.66796875,
+          "x":10051.450195313,
+          "z":13729.11328125
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Kashyyk, Odd Tent":{
+      "price":2000,
+      "inside":{
+        "pos":{
+          "y":3846.4921875,
+          "x":4088.5151367188,
+          "z":15626.680664063
+        },
+        "cell":"Kashyyk, Odd Tent"
+      },
+      "cells":{
+        "Kashyyk, Odd Tent":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Odd Tent",
+      "outside":{
+        "pos":{
+          "y":-3394.4904785156,
+          "x":-9856.8984375,
+          "z":11639.3671875
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Kashyyk, Orange Manor":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3840.7153320313,
+          "x":4076.7348632813,
+          "z":15585.973632813
+        },
+        "cell":"Kashyyk, Orange Manor"
+      },
+      "cells":{
+        "Kashyyk, Orange Manor":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Orange Manor",
+      "outside":{
+        "pos":{
+          "y":3512.0856933594,
+          "x":-2222.0424804688,
+          "z":14245.185546875
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Kashyyk, Mar Vim's Tent":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4032.0969238281,
+          "x":4095.6806640625,
+          "z":15737.74609375
+        },
+        "cell":"Kashyyk, Mar Vim's Tent"
+      },
+      "cells":{
+        "Kashyyk, Mar Vim's Tent":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Mar Vim's Tent",
+      "outside":{
+        "pos":{
+          "y":-3881.1616210938,
+          "x":-11048.860351563,
+          "z":11639.3671875
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Kashyyk, Gray's Tent":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4028.3676757813,
+          "x":4119.5693359375,
+          "z":15737.74609375
+        },
+        "cell":"Kashyyk, Gray's Tent"
+      },
+      "cells":{
+        "Kashyyk, Gray's Tent":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Gray's Tent",
+      "outside":{
+        "pos":{
+          "y":-4004.6672363281,
+          "x":-10009.534179688,
+          "z":11639.3671875
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Tatooine, Gudda's Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":-218.91889953613,
+          "x":-41.42504119873,
+          "z":-103.10906982422
+        },
+        "cell":"Tatooine, Gudda's Hut"
+      },
+      "cells":{
+        "Tatooine, Gudda's Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Gudda's Hut",
+      "outside":{
+        "pos":{
+          "y":5727.15625,
+          "x":3321.5278320313,
+          "z":9843.5224609375
+        },
+        "cell":"Tatooine, Rodian District"
+      }
+    },
+    "Tatooine, Empty Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3956.9455566406,
+          "x":3978.6735839844,
+          "z":12244.357421875
+        },
+        "cell":"Tatooine, Empty Hut"
+      },
+      "cells":{
+        "Tatooine, Empty Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Empty Hut",
+      "outside":{
+        "pos":{
+          "y":3537.2902832031,
+          "x":4692.529296875,
+          "z":12273.217773438
+        },
+        "cell":"Tatooine, Sandriver"
+      }
+    },
+    "Kashyyk, Geerah's Tent":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4029.0568847656,
+          "x":4097.5849609375,
+          "z":15737.74609375
+        },
+        "cell":"Kashyyk, Geerah's Tent"
+      },
+      "cells":{
+        "Kashyyk, Geerah's Tent":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Geerah's Tent",
+      "outside":{
+        "pos":{
+          "y":-3464.8115234375,
+          "x":-10482.506835938,
+          "z":11639.3671875
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Tatooine, Zoboo's Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3896.7810058594,
+          "x":4036.5688476563,
+          "z":12254.516601563
+        },
+        "cell":"Tatooine, Zoboo's Hut"
+      },
+      "cells":{
+        "Tatooine, Zoboo's Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Zoboo's Hut",
+      "outside":{
+        "pos":{
+          "y":4673.7280273438,
+          "x":5756.68359375,
+          "z":9843.5224609375
+        },
+        "cell":"Tatooine, Rodian District"
+      }
+    },
+    "Kashyyk, Azoozoo's Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4058.1223144531,
+          "x":4087.7028808594,
+          "z":15508.643554688
+        },
+        "cell":"Kashyyk, Azoozoo's Hut"
+      },
+      "cells":{
+        "Kashyyk, Azoozoo's Hut":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Azoozoo's Hut",
+      "outside":{
+        "pos":{
+          "y":12192.396484375,
+          "x":11130.720703125,
+          "z":13730.944335938
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Kashyyk, Blue Manor":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3821.8269042969,
+          "x":4073.8701171875,
+          "z":12259.096679688
+        },
+        "cell":"Kashyyk, Blue Manor"
+      },
+      "cells":{
+        "Kashyyk, Blue Manor":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Blue Manor",
+      "outside":{
+        "pos":{
+          "y":2763.59765625,
+          "x":-298.71325683594,
+          "z":14340.500976563
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Nar Shaddaa, Wampa Suite":{
+      "price":3000,
+      "inside":{
+        "pos":{
+          "y":4270.9111328125,
+          "x":1719.2133789063,
+          "z":12928.151367188
+        },
+        "cell":"Nar Shaddaa, Wampa Suite"
+      },
+      "cells":{
+        "Nar Shaddaa, Wampa Suite":true
+      },
+      "doors":[],
+      "name":"Nar Shaddaa, Wampa Suite",
+      "outside":{
+        "pos":{
+          "y":7307.09765625,
+          "x":2053.0380859375,
+          "z":4310.7021484375
+        },
+        "cell":"Nar Shaddaa"
+      }
+    },
+    "Nar Shaddaa, Ginx Suite":{
+      "price":3000,
+      "inside":{
+        "pos":{
+          "y":4257.1225585938,
+          "x":1758.9935302734,
+          "z":12928.151367188
+        },
+        "cell":"Nar Shaddaa, Ginx Suite"
+      },
+      "cells":{
+        "Nar Shaddaa, Ginx Suite":true
+      },
+      "doors":[],
+      "name":"Nar Shaddaa, Ginx Suite",
+      "outside":{
+        "pos":{
+          "y":6837.6865234375,
+          "x":8864.1708984375,
+          "z":4322.8837890625
+        },
+        "cell":"Nar Shaddaa"
+      }
+    },
+    "Manaan, Apartment B4":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":701.81768798828,
+          "x":-22.325325012207,
+          "z":-225.62463378906
+        },
+        "cell":"Manaan, Apartment B4"
+      },
+      "cells":{
+        "Manaan, Apartment B4":true
+      },
+      "doors":[],
+      "name":"Manaan, Apartment B4",
+      "outside":{
+        "pos":{
+          "y":4094.1899414063,
+          "x":1865.0786132813,
+          "z":15602.158203125
+        },
+        "cell":"Manaan, Apartments"
       }
     },
     "Manaan, Eagle 5":{
@@ -80,16 +672,7 @@
       "cells":{
         "Manaan, Eagle 5":true
       },
-      "doors":{
-        "Manaan, Bazaar":[{
-            "refIndex":"7591-0",
-            "refId":"sw_manadoorg"
-          }],
-        "Manaan, Eagle 5":[{
-            "refIndex":"5327-0",
-            "refId":"sw_manadoorg"
-          }]
-      },
+      "doors":[],
       "name":"Manaan, Eagle 5",
       "outside":{
         "cell":"Manaan, Bazaar",
@@ -98,6 +681,150 @@
           "x":4837.7993164063,
           "z":80.715545654297
         }
+      }
+    },
+    "Tatooine, Dex's Hut":{
+      "price":1000,
+      "inside":{
+        "cell":"Tatooine, Dex's Hut",
+        "pos":{
+          "y":3913.6259765625,
+          "x":4005.2993164063,
+          "z":12254.034179688
+        }
+      },
+      "cells":{
+        "Tatooine, Dex's Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Dex's Hut",
+      "outside":{
+        "cell":"Tatooine, Rodian District",
+        "pos":{
+          "y":7648.5766601563,
+          "x":5945.3505859375,
+          "z":9843.5224609375
+        }
+      }
+    },
+    "Nar Shaddaa, Nexu Suite":{
+      "price":3000,
+      "inside":{
+        "pos":{
+          "y":4275.8393554688,
+          "x":1738.7088623047,
+          "z":12928.150390625
+        },
+        "cell":"Nar Shaddaa, Nexu Suite"
+      },
+      "cells":{
+        "Nar Shaddaa, Nexu Suite":true
+      },
+      "doors":[],
+      "name":"Nar Shaddaa, Nexu Suite",
+      "outside":{
+        "pos":{
+          "y":7132.826171875,
+          "x":4056.0356445313,
+          "z":4323.8833007813
+        },
+        "cell":"Nar Shaddaa"
+      }
+    },
+    "Tatooine, Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":3868.7260742188,
+          "x":4152.25,
+          "z":12270.216796875
+        },
+        "cell":"Tatooine, Hut"
+      },
+      "cells":{
+        "Tatooine, Hut":true
+      },
+      "doors":[],
+      "name":"Tatooine, Hut",
+      "outside":{
+        "pos":{
+          "y":5797.2729492188,
+          "x":6661.890625,
+          "z":12273.217773438
+        },
+        "cell":"Tatooine, Sandriver"
+      }
+    },
+    "Nar Shaddaa, Kinrath Suite":{
+      "price":3000,
+      "inside":{
+        "pos":{
+          "y":5417.3403320313,
+          "x":2860.3171386719,
+          "z":12281.845703125
+        },
+        "cell":"Nar Shaddaa, Kinrath Suite"
+      },
+      "cells":{
+        "Nar Shaddaa, Kinrath Suite":true
+      },
+      "doors":[],
+      "name":"Nar Shaddaa, Kinrath Suite",
+      "outside":{
+        "pos":{
+          "y":6858.9213867188,
+          "x":7500.40625,
+          "z":4323.8833007813
+        },
+        "cell":"Nar Shaddaa"
+      }
+    },
+    "Kashyyk, Creaky Hut":{
+      "price":1000,
+      "inside":{
+        "pos":{
+          "y":4051.7407226563,
+          "x":4099.9653320313,
+          "z":15509.81640625
+        },
+        "cell":"Kashyyk, Creaky Hut"
+      },
+      "cells":{
+        "Kashyyk, Creaky Hut":true
+      },
+      "doors":[],
+      "name":"Kashyyk, Creaky Hut",
+      "outside":{
+        "pos":{
+          "y":11234.112304688,
+          "x":10285.698242188,
+          "z":13730.204101563
+        },
+        "cell":"Kashyyk"
+      }
+    },
+    "Manaan, Delivery Ship":{
+      "price":5000,
+      "inside":{
+        "pos":{
+          "y":3608.9423828125,
+          "x":4156.16015625,
+          "z":12352.868164063
+        },
+        "cell":"Manaan, Delivery Ship"
+      },
+      "cells":{
+        "Manaan, Delivery Ship":true
+      },
+      "doors":[],
+      "name":"Manaan, Delivery Ship",
+      "outside":{
+        "pos":{
+          "y":16880.822265625,
+          "x":2552.21484375,
+          "z":802.12127685547
+        },
+        "cell":"Manaan, Bazaar"
       }
     },
     "Tatooine, Empty Manor":{
@@ -124,28 +851,76 @@
         "cell":"Tatooine, Sandriver"
       }
     },
-    "Tatooine, Empty Hut":{
+    "Tatooine, Farm House":{
+      "price":5000,
+      "inside":{
+        "cell":"Tatooine, Farm House",
+        "pos":{
+          "y":170,
+          "x":6615,
+          "z":20.337280273438
+        }
+      },
+      "cells":{
+        "Tatooine, Farm House":true
+      },
+      "doors":[],
+      "name":"Tatooine, Farm House",
+      "outside":{
+        "cell":"Tatooine",
+        "pos":{
+          "y":44205,
+          "x":80,
+          "z":8202.7060546875
+        }
+      }
+    },
+    "Tatooine, Roomo's Hut":{
       "price":1000,
       "inside":{
         "pos":{
-          "y":3956.9455566406,
-          "x":3978.6735839844,
-          "z":12244.357421875
+          "y":3923.94140625,
+          "x":4015.0693359375,
+          "z":12254.034179688
         },
-        "cell":"Tatooine, Empty Hut"
+        "cell":"Tatooine, Roomo's Hut"
       },
       "cells":{
-        "Tatooine, Empty Hut":true
+        "Tatooine, Roomo's Hut":true
       },
       "doors":[],
-      "name":"Tatooine, Empty Hut",
+      "name":"Tatooine, Roomo's Hut",
       "outside":{
         "pos":{
-          "y":3537.2902832031,
-          "x":4692.529296875,
-          "z":12273.217773438
+          "y":6689.9267578125,
+          "x":3887.3381347656,
+          "z":9843.5224609375
         },
-        "cell":"Tatooine, Sandriver"
+        "cell":"Tatooine, Rodian District"
+      }
+    },
+    "Manaan, Apartment B1":{
+      "price":500,
+      "inside":{
+        "pos":{
+          "y":36.841873168945,
+          "x":-44.14404296875,
+          "z":-83.931243896484
+        },
+        "cell":"Manaan, Apartment B1"
+      },
+      "cells":{
+        "Manaan, Apartment B1":true
+      },
+      "doors":[],
+      "name":"Manaan, Apartment B1",
+      "outside":{
+        "pos":{
+          "y":4087.6506347656,
+          "x":4083.0354003906,
+          "z":15602.158203125
+        },
+        "cell":"Manaan, Apartments"
       }
     }
   },

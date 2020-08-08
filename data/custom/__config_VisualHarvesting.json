@@ -1,14 +1,14 @@
 {
-  "fail":{
-    "message":"You failed to gather anything!",
-    "sound":"fx/item/potionFAIL.wav"
-  },
+  "menuId":866001,
   "success":{
     "message":"You gathered %d of an ingredient!",
     "sound":"fx/item/item.wav"
   },
   "alchemyDeterminesChance":true,
-  "respawnTime":720,
+  "fail":{
+    "message":"You failed to gather anything!",
+    "sound":"fx/item/potionFAIL.wav"
+  },
   "plants":{
     "sw_flora_razormoss":{
       "ingredient":"sw_blackroot",
@@ -50,24 +50,16 @@
         "0":30
       }
     },
-    "sw_flora_japor":{
-      "ingredient":"sw_japsnip",
+    "sw_florakinnat":{
+      "ingredient":"sw_kinnat",
       "amount":{
         "2":100,
         "1":70,
         "0":30
       }
     },
-    "sw_floramushbloom":{
-      "ingredient":"sw_mushblooming",
-      "amount":{
-        "2":100,
-        "1":70,
-        "0":30
-      }
-    },
-    "sw_flora_dunecact":{
-      "ingredient":"sw_cacting",
+    "sw_florakolto":{
+      "ingredient":"sw_koltoingred",
       "amount":{
         "2":100,
         "1":70,
@@ -90,16 +82,16 @@
         "0":30
       }
     },
-    "sw_florakolto":{
-      "ingredient":"sw_koltoingred",
+    "sw_floramushbloom":{
+      "ingredient":"sw_mushblooming",
       "amount":{
         "2":100,
         "1":70,
         "0":30
       }
     },
-    "sw_florakinnat":{
-      "ingredient":"sw_kinnat",
+    "sw_flora_dunecact":{
+      "ingredient":"sw_cacting",
       "amount":{
         "2":100,
         "1":70,
@@ -107,5 +99,5 @@
       }
     }
   },
-  "menuId":866001
+  "respawnTime":720
 }
